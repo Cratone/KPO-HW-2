@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{4C15CA15-C543-4A3C-98CE-F2EABDB96636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorageService", "FileStorageService\FileStorageService.csproj", "{9923C824-5119-4BC3-B9C6-53D3C12FAEA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAnalysisService", "FileAnalysisService\FileAnalysisService.csproj", "{031C5B27-0FE4-434E-BF6A-29F79BDA88D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C15CA15-C543-4A3C-98CE-F2EABDB96636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C15CA15-C543-4A3C-98CE-F2EABDB96636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C15CA15-C543-4A3C-98CE-F2EABDB96636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C15CA15-C543-4A3C-98CE-F2EABDB96636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9923C824-5119-4BC3-B9C6-53D3C12FAEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9923C824-5119-4BC3-B9C6-53D3C12FAEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9923C824-5119-4BC3-B9C6-53D3C12FAEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9923C824-5119-4BC3-B9C6-53D3C12FAEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031C5B27-0FE4-434E-BF6A-29F79BDA88D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031C5B27-0FE4-434E-BF6A-29F79BDA88D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031C5B27-0FE4-434E-BF6A-29F79BDA88D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031C5B27-0FE4-434E-BF6A-29F79BDA88D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
